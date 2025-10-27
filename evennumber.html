@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONDITIONAL 2</title>
+    </head>
+    <body>
+        <h2>CHECKING EVENnumber OR ODDNUMBER</h2>
+        <input type="number" id="num" placeholder="Enter the number">
+        <button onclick="checkEvenOdd()">Check</button>
+    <script>
+        function checkEvenOdd(){
+            let number=document.getElementById("num").value;
+         if (number % 2 === 0) {
+            alert(number + " is Even");
+            } else {
+             alert(number + " is Odd");
+            }
+        }
+    </script>
+    </body>
+</html>
