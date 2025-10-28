@@ -1,10 +1,10 @@
 function grade() {
-    var T = parseInt(document.getElementById("T").value);
-    var H = parseInt(document.getElementById("H").value);
-    var E = parseInt(document.getElementById("E").value);
-    var M = parseInt(document.getElementById("M").value);
-    var S = parseInt(document.getElementById("S").value);
-    var SS = parseInt(document.getElementById("SS").value);
+    var T = document.getElementById("T").value;
+    var H =document.getElementById("H").value;
+    var E = document.getElementById("E").value;
+    var M =document.getElementById("M").value;
+    var S = document.getElementById("S").value;
+    var SS = document.getElementById("SS").value;
     if (T == '') {
         alert("enter the telugu marks");
     }
