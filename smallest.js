@@ -1,20 +1,20 @@
-function biggest(){
+function smallest(){
     var a = parseInt(document.getElementById("a").value);
     var b = parseInt(document.getElementById("b").value);
     var c = parseInt(document.getElementById("c").value);
     if(a > b){
         if(b > c){
-            document.getElementById("big").innerHTML = c+" c value biggest";
+            document.getElementById("small").innerHTML = c+" c value smallest";
         }
         else{
-            document.getElementById("big").innerHTML = b+" b value biggest";
+            document.getElementById("small").innerHTML = b+" b value smallest";
         }
     }
     else if(a > c){
-            document.getElementById("big").innerHTML = c+" c value biggest";
+            document.getElementById("small").innerHTML = c+" c value smallest";
     }
     else{
-            document.getElementById("big").innerHTML = a+" a value biggest";
+            document.getElementById("small").innerHTML = a+" a value smallest";
     }
 }
 
