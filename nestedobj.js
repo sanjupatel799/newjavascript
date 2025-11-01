@@ -1,0 +1,80 @@
+function s2s(){
+   let company={
+    name:"company name:s2s web solutions",
+    location:"location:karimnagar",
+    managingdirector:{
+        name:"name:Swamy",
+        designation:"designation:CEO"
+    },
+   emp1:{
+    name:"name:Sandhya",
+    designation:"designation:HR"
+},
+emp2:{
+    name:"name:Abhiram",
+    designation:"designation:App developer",
+},
+emp3:{
+    name:"name:Manogna",
+    designation:"designation:web developer",
+},
+emp4:{
+    name:"name:Srilekha",
+    designation:"designation:web developer",
+},
+emp5:{
+    name:"name:Anushka",
+    designation:"designation:Administrative Assistant",
+},
+emp6:{
+    name:"name:Akhil",
+    designation:"designation:intern",
+},
+emp7:{
+    name:"name:sanjay",
+    designation:"designation:intern",
+},
+emp8:{
+    name:"name:soumya",
+    designation:"designation:intern",
+},
+emp9:{
+    name:"name:srija",
+    designation:"designation:intern",
+},
+emp10:{
+    name:"name:mounika",
+    designation:"designation:intern",
+},
+emp11:{
+    name:"name:saiteja",
+    designation:"designation:intern",
+},
+};
+console.log(company.name);
+console.log(company.location);
+console.log(company.managingdirector.name);
+console.log(company.managingdirector.designation);
+console.log(company.emp1.name);
+console.log(company.emp1.designation);
+console.log(company.emp2.name);
+console.log(company.emp2.designation);
+console.log(company.emp3.name);
+console.log(company.emp3.designation);
+console.log(company.emp4.name);
+console.log(company.emp4.designation);
+console.log(company.emp5.name);
+console.log(company.emp5.designation);
+console.log(company.emp6.name);
+console.log(company.emp6.designation);
+console.log(company.emp7.name);
+console.log(company.emp7.designation);
+console.log(company.emp8.name);
+console.log(company.emp8.designation);
+console.log(company.emp9.name);
+console.log(company.emp9.designation);
+console.log(company.emp10.name);
+console.log(company.emp10.designation);
+console.log(company.emp11.name);
+console.log(company.emp11.designation);
+}
