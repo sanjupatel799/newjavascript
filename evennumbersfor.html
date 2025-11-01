@@ -1,0 +1,27 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <input type="number" id="num">
+    <button onclick="Even()">click</button>
+    <p id="number"></p>
+    <script>
+        function Even() {
+            let num = document.getElementById("num").value;
+                    for (let i = 1; i <= 20; i++) {
+                        if (num == i) {
+                            if (i % 2 == 0) {
+                                document.getElementById("number").innerHTML = i + " is even";
+                            } else {
+                                document.getElementById("number").innerHTML = i + " is not even";
+                            }
+                            break;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
